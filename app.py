@@ -306,7 +306,7 @@ with gr.Blocks(title="olmOCR Document Analyzer") as demo:
                             max_new_tokens_url = gr.Slider(
                                 label="Max New Tokens",
                                 minimum=10,
-                                maximum=500,
+                                maximum=5000,
                                 value=50,
                                 step=10,
                             )
@@ -391,7 +391,7 @@ with gr.Blocks(title="olmOCR Document Analyzer") as demo:
                             max_new_tokens_file = gr.Slider(
                                 label="Max New Tokens",
                                 minimum=10,
-                                maximum=500,
+                                maximum=5000,
                                 value=50,
                                 step=10,
                             )
@@ -450,7 +450,7 @@ with gr.Blocks(title="olmOCR Document Analyzer") as demo:
                             max_new_tokens_base64 = gr.Slider(
                                 label="Max New Tokens",
                                 minimum=10,
-                                maximum=500,
+                                maximum=5000,
                                 value=50,
                                 step=10,
                             )
